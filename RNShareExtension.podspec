@@ -10,9 +10,8 @@ Pod::Spec.new do |s|
   s.license        = "MIT"
   s.author         = { "styleofspur" => "styleofspur@gmail.com" }
   s.ios.deployment_target = '7.0'
-  s.tvos.deployment_target = '9.0'
   s.source         = { :git => "https://github.com/homer-hq/react-native-share-extension.git", :tag => "v#{s.version}" }
-  s.source_files   = 'ios/ReactNativeShareExtension/**/*.{h,m}'
+  s.source_files   = 'ios/**/*.{h,m}'
   s.preserve_paths = "lib/**/*.js"
   s.dependency 'React'
 
