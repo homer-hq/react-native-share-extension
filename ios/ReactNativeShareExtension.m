@@ -1,5 +1,5 @@
 #import "ReactNativeShareExtension.h"
-#import "React/RCTRootView.h"
+#import <React/RCTRootView.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
 #define URL_IDENTIFIER @"public.url"
