@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git@github.com:homer-hq/react-native-share-extension.git"
   },
-  "keywords": ["react-component", "react-native", "share-extension"],
+  "keywords": [
+    "react-component",
+    "react-native",
+    "share-extension"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/homer-hq/react-native-share-extension"
   },
-  "homepage": "https://github.com/homer-hq/react-native-share-extension"
+  "homepage": "https://github.com/homer-hq/react-native-share-extension",
+  "dependencies": {
+    "react-native": "^0.53.0"
+  }
 }
