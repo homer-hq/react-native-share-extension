@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		41B5DE3E1D0B50D300949BD5 /* ReactNativeShareExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B5DE3D1D0B50D300949BD5 /* ReactNativeShareExtension.m */; };
-		BB948F3E0D5B0C35CBB0A88B /* libPods-ReactNativeShareExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 689B360F031D2D00E88958EA /* libPods-ReactNativeShareExtension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +26,6 @@
 		41B5DE301D0B505800949BD5 /* libReactNativeShareExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeShareExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B5DE3D1D0B50D300949BD5 /* ReactNativeShareExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeShareExtension.m; sourceTree = "<group>"; };
 		41B5DE3F1D0B50FA00949BD5 /* ReactNativeShareExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeShareExtension.h; sourceTree = "<group>"; };
-		689B360F031D2D00E88958EA /* libPods-ReactNativeShareExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeShareExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D3E5AE67DE7CA7A86087759 /* Pods-ReactNativeShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeShareExtension.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactNativeShareExtension/Pods-ReactNativeShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		905BC255093BF076757A3E71 /* Pods-ReactNativeShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeShareExtension.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactNativeShareExtension/Pods-ReactNativeShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,28 +33,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB948F3E0D5B0C35CBB0A88B /* libPods-ReactNativeShareExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3365232D2409789FF76AAF2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				689B360F031D2D00E88958EA /* libPods-ReactNativeShareExtension.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		41B5DE271D0B505800949BD5 = {
 			isa = PBXGroup;
 			children = (
 				41B5DE3C1D0B506B00949BD5 /* src */,
 				41B5DE311D0B505800949BD5 /* Products */,
-				FA3E0199A09638AF4B81D2E0 /* Pods */,
-				3365232D2409789FF76AAF2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,15 +64,6 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		FA3E0199A09638AF4B81D2E0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6D3E5AE67DE7CA7A86087759 /* Pods-ReactNativeShareExtension.debug.xcconfig */,
-				905BC255093BF076757A3E71 /* Pods-ReactNativeShareExtension.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,11 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B5DE391D0B505800949BD5 /* Build configuration list for PBXNativeTarget "ReactNativeShareExtension" */;
 			buildPhases = (
-				FEE5FAE7BDC6E49BC69963EB /* [CP] Check Pods Manifest.lock */,
 				41B5DE2C1D0B505800949BD5 /* Sources */,
 				41B5DE2D1D0B505800949BD5 /* Frameworks */,
 				41B5DE2E1D0B505800949BD5 /* CopyFiles */,
-				75F1ED772600784941C75774 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,42 +114,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		75F1ED772600784941C75774 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ReactNativeShareExtension/Pods-ReactNativeShareExtension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEE5FAE7BDC6E49BC69963EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeShareExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41B5DE2C1D0B505800949BD5 /* Sources */ = {
@@ -273,7 +211,6 @@
 		};
 		41B5DE3A1D0B505800949BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D3E5AE67DE7CA7A86087759 /* Pods-ReactNativeShareExtension.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inhereted)",
@@ -291,7 +228,6 @@
 		};
 		41B5DE3B1D0B505800949BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 905BC255093BF076757A3E71 /* Pods-ReactNativeShareExtension.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inhereted)",

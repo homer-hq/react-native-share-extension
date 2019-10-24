@@ -2,3 +2,15 @@
 *.iml
 .tags
 .tags1
+node_modules
+.idea/
+.history/
+Pods/
+ReactNativeShareExtension.x*
+
+# android files
+**/android/.gradle
+**/android/.settings
+**/android/build
+**/android/.project
+**/android/bin
